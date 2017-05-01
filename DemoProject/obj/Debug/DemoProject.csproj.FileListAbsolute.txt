@@ -1,7 +1,6 @@
 C:\Users\PaneraRoom\Documents\Visual Studio 2015\Projects\DemoProject\DemoProject\obj\Debug\DemoProject.csprojResolveAssemblyReference.cache
 C:\Users\PaneraRoom\Documents\Visual Studio 2015\Projects\DemoProject\DemoProject\bin\Debug\DemoProject.dll
 C:\Users\PaneraRoom\Documents\Visual Studio 2015\Projects\DemoProject\DemoProject\bin\Debug\DemoProject.pdb
-C:\Users\PaneraRoom\Documents\Visual Studio 2015\Projects\DemoProject\DemoProject\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 C:\Users\PaneraRoom\Documents\Visual Studio 2015\Projects\DemoProject\DemoProject\bin\Debug\nunit.framework.dll
 C:\Users\PaneraRoom\Documents\Visual Studio 2015\Projects\DemoProject\DemoProject\bin\Debug\Selenium.WebDriverBackedSelenium.dll
 C:\Users\PaneraRoom\Documents\Visual Studio 2015\Projects\DemoProject\DemoProject\bin\Debug\WebDriver.dll

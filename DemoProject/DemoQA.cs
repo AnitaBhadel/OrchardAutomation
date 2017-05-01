@@ -56,9 +56,9 @@ namespace DemoProject
             year.SelectByValue("2013");
             driver.FindElement(By.Id("phone_9")).SendKeys("6464706680");
             Thread.Sleep(3000);
-            driver.FindElement(By.Id("username")).SendKeys("abhade26");
+            driver.FindElement(By.Id("username")).SendKeys("abhade28");
             Thread.Sleep(3000);
-            driver.FindElement(By.Id("email_1")).SendKeys("anitaacharya26@yahoo.com");
+            driver.FindElement(By.Id("email_1")).SendKeys("anitaacharya28@yahoo.com");
             Thread.Sleep(3000);
 
 
@@ -86,12 +86,24 @@ namespace DemoProject
             Assert.IsTrue(driver.FindElement(By.ClassName("piereg_message")).Text.Equals(text));
                  Console.Write("Thank you for your registration is displayed") ;
 
-            
+
 
             //negative Assertion
-            string a = driver.FindElement(By.Id("name_3_firstname")).Text;
-            string b = "Heather";
-            Assert.IsTrue(a == b);
+            //string a = driver.FindElement(By.Id("name_3_firstname")).Text;
+            // string b = "Heather";
+            // Assert.IsTrue(a == b);
+            string errortext1= " Username already exists";
+            string errortext2 = " Email already exists";
+
+            if ((driver.PageSource.Contains(errortext1)) || (driver.PageSource.Contains(errortext2)))
+            {
+                Console.Write("error message displayed when registration");
+
+            }
+            else
+            {
+                Console.Write("error message is not displayed when registration");
+            }
 
 
 
